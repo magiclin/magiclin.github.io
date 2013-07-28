@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://magiclin.github.io
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Listen to Wind Reciting
+subtitle: Stay hungry, Stay foolish.
+author: Magiclin
 simple_search: http://google.com/search
 description:
 
@@ -17,9 +17,9 @@ date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
 subscribe_rss: /atom.xml
-subscribe_email:
+subscribe_email: magiclin89@gmail.com
 # RSS feeds can list your email address if you like
-email:
+email: magiclin89@gmail.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
