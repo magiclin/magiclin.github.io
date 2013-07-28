@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://magiclin.github.io/sitemap.xml 
