@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Hear the Wind Reciting]]></title>
-  <link href="http://magiclin.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Notes | Hear the Wind Reciting]]></title>
+  <link href="http://magiclin.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://magiclin.github.io/"/>
   <updated>2013-09-15T23:37:40+08:00</updated>
   <id>http://magiclin.github.io/</id>
@@ -162,33 +162,6 @@
          --&gt;
       乙：九点半开始。 --&gt;
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Remove the duplicate shortcuts]]></title>
-    <link href="http://magiclin.github.io/blog/2013/07/28/remove-the-duplicate-shortcuts/"/>
-    <updated>2013-07-28T23:58:00+08:00</updated>
-    <id>http://magiclin.github.io/blog/2013/07/28/remove-the-duplicate-shortcuts</id>
-    <content type="html"><![CDATA[<h3>删除OSＸ打开方式中的重复项</h3>
-
-<hr />
-
-<p> <a href="http://bbs.weiphone.com/read-htm-tid-6248807.html/">原文链接</a></p>
-
-<h4>10.5及以后的系统：</h4>
-
-<pre><code>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill \
--r -domain local -domain system -domain user
-</code></pre>
-
-<h4>10.4及以前的系统：</h4>
-
-<pre><code>/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill \
--r -domain local -domain system -domain user
-</code></pre>
-
-<p>之后重启系统即可。</p>
 ]]></content>
   </entry>
   
