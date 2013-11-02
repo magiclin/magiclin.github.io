@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Hear the Wind Reciting]]></title>
+  <title><![CDATA[且听风吟]]></title>
   <link href="http://magiclin.github.io/atom.xml" rel="self"/>
   <link href="http://magiclin.github.io/"/>
-  <updated>2013-11-02T15:52:44+08:00</updated>
+  <updated>2013-11-02T16:31:24+08:00</updated>
   <id>http://magiclin.github.io/</id>
   <author>
     <name><![CDATA[Magiclin]]></name>
@@ -22,19 +22,19 @@
 
 <hr />
 
-<p> <a href="http://bbs.weiphone.com/read-htm-tid-6248807.html/">原文链接</a></p>
+<p>10.5及以后的系统：</p>
 
-<h4>10.5及以后的系统：</h4>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='console'><span class='line'><span class="gp">$</span> /System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill -r -domain <span class="nb">local</span> -domain system -domain user
+</span></code></pre></td></tr></table></div></figure>
 
-<pre><code>/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/LaunchServices.framework/Versions/A/Support/lsregister -kill \
--r -domain local -domain system -domain user
-</code></pre>
 
-<h4>10.4及以前的系统：</h4>
+<p>10.4及以前的系统：</p>
 
-<pre><code>/System/Library/Frameworks/ApplicationServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill \
--r -domain local -domain system -domain user
-</code></pre>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='console'><span class='line'><span class="gp">$</span> /System/Library/Frameworks/ApplicationServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -kill -r -domain <span class="nb">local</span> -domain system -domain user
+</span></code></pre></td></tr></table></div></figure>
+
 
 <p>之后重启系统即可。</p>
 ]]></content>
